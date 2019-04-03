@@ -7,6 +7,14 @@
 }
 
 .answers-item:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  opacity: 0.5;
   transition: background-color 0.3s ease-in-out;
+}
+
+.answers-item--success {
+  background-color: green;
+}
+
+.answers-item--error {
+  background-color: red;
 }
