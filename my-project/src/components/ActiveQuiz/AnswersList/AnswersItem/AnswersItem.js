@@ -10,8 +10,6 @@ const AnswersItem = (props) => {
     classAnswer = `answers-item`;
   }
 
-  console.log(classAnswer);
-
   return (
     <li className={classAnswer} onClick={() => props.onAnswerClick(props.answer.id)}>
       {props.answer.text}
