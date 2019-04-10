@@ -4,6 +4,7 @@
   justify-content: center;
   flex-direction: column;
   padding-top: 50px;
+  padding-bottom: 50px;
   flex-grow: 1;
   background: linear-gradient(270deg, #f0613c 0%, #f0783c 100%);
 }
@@ -12,6 +13,7 @@
   width: 100%;
   max-width: 600px;
   padding: 0 20px;
+  margin: 0 auto;
 }
 
 .quiz-creator h1 {
